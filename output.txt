@@ -1,0 +1,94 @@
+B.Tech,  4th SEMESTER  
+MSE -2 EXAMINATION  (BLENDED ), EVEN  SEM.  - 2025 -26 
+ AI Driven  Full Stack  Development  (AI308B)  
+ 
+Time:  3 Hours  Total  Marks:  15 
+Note:  The project  report  in PDF  format  must  be uploaded  on Moodle  during  the examination.  Part D MSE 2_AIFSD  
+ 
+ 
+Q1 
+ All parts  are compulsory  CO-4  
+S. 
+N. Question  BL Marks  
+a)   MongoDB Schema  
+     Create  a MongoDB  schema/model  for Student  with the following  fields:  
+User: 
+• Name  
+• Email (Unique)  
+• Password (Hashed)  
+Item:  
+• Item Name  
+• Description  
+• Type (Lost / Found)  
+• Location  
+• Date  
+• Contact Info  
+ 3 2  
+b) Backend  Requirements  (Node.js  + Express  + MongoDB)  
+  Auth APIs:  
+• POST /api/register  
+• POST /api/login  
+Item APIs:  
+• POST /api/items → Add item  
+• GET /api/items → View all items  
+• GET /api/items/:id → View item by ID  
+• PUT /api/items/:id → Update item  3 5 Case  Study:  
+In a college campus, students often lose and find personal belongings. To manage this efficiently, a web -based Lost & 
+Found Item Management System  is to be developed using the MERN stack.  
+•  Register and log in securely  
+•  Report lost items with relevant details  
+•  Report found items and their location  
+•  View all reported items  
+•  Search items by name or category  
+•  Update or delete their own entries  
+•  Logout securely  • DELETE /api/items/:id → Delete item  
+• GET /api/items/search?name=xyz → Search  
+Use: 
+• bcrypt  for password hashing  
+• jsonwebtoken (JWT) for authentication  
+Q2 
+ All parts  are compulsory  CO-3  
+S. 
+N. Question  BL Marks  
+a) 
+Frontend  Development  (6 Marks)  
+1. Create  a React  application  with:  
+o Registration  Form  (Name,  Email,  Password ) 
+o Login  Form  (Email,  Password)  
+o Dashboard  with:  
+▪ Add item form  
+▪ Display all items  
+▪ Search items  
+▪ Update/Delete items  
+▪ Logout  
+2. Use Axios  to connect  frontend  with backend  APIs  
+3. On successful  login:  
+o Store  JWT token in  localStorage  
+o Redirect  user to Dashboard page  
+o  
+Additional Backend Features  
+1. Protect route /dashboard using authentication middleware  
+2. Ensure only logged -in users can:  
+o View dashboard  
+o Update item details  
+3. Handle errors such as:  
+o Invalid login credentials  
+o Duplicate email registration  
+o Unauthorized access  
+4. Implement Logout functionality (clear token & redirect)  
+5. Add basic UI styling using CSS / Bootstrap  
+ 
+ 3 5  
+b)  
+Deploy  this project  on GitHub  and Render  
+ 
+After  implementing  this project  on local  machine,  deploy  it on GitHub  and Render.  Add the 
+deployment links in the word document.  3 3 
+ 
+● Make Docs  and convert  it into PDF for submission  and it should  contain:  
+o Code  
+o Code  output  (screenshots)  
+o Postman /Thunder client  all HTTP  request  screenshots  
+o MongoDB  items  storage  part (screenshots)  
+o Render  deployment  successful  (screenshot)  
+o Render testing live URL for each end -point  Page  3 of 3 
