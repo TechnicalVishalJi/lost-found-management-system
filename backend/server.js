@@ -16,6 +16,7 @@ mongoose.connect(process.env.MONGO_URI).then(() => console.log('MongoDB connecte
   .catch(err => console.error(err));
 
 // Routes
+app.get('/api/health', (req, res) => res.json({ status: 'OK', message: 'Backend API is running seamlessly' }));
 app.use('/api', require('./routes/authRoutes'));
 app.use('/api', require('./routes/itemRoutes'));
 
